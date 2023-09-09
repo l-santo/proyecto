@@ -1,0 +1,38 @@
+
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}services{% endblock%}
+{% block content %}
+
+
+{{listServices}}
+   <!-- services section start -->
+  
+      <div class="container">
+         <h1 style="color: yellow">TIPOS DE DEPORTES EXTREMOS </h1>
+         <b>
+         <p class="services_text" style="color: yellow">Además de estos, otros de los deportes extremos son el surf, 
+            el windsurf, el kitesurf, el snowboard, el motocross, el buceo, el esquí, el ciclismo de montaña, el esquí acuático, el kayak extremo, el rafting, el rápel, el salto base</p>
+         
+            <div class="row">
+               <div class="col-md-4">
+                  <div><img src="{% static 'core/images/lanzamiento.png' %}" class="services_img"></div>
+                 
+               </div>
+               <div class="col-md-4">
+                  <div><img src="{% static 'core/images/img-2.png' %}" class="services_img"></div>
+                 
+               </div>
+               <div class="col-md-4">
+                  <div><img src="{% static 'core/images/rio.png' %}" class="services_img"></div>
+              
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- services section end -->
+
+
+   {% endblock %}
+   
